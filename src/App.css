@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  max-width: 9000px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -33,10 +33,36 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
-
 .read-the-docs {
   color: #888;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: min-content;
+}
+
+.green {
+  color: green;
+}
+
+body {
+  background-color: #f3f3f3;
+  color: #333;
+  font-family: "Arial", sans-serif;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
 }
